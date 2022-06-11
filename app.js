@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get('/', (req, res) => {
-  res.send('duck water mouse')
+  res.send('success')
 })
 
 app.listen(5000, () => {
