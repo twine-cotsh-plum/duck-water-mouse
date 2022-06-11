@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get('/', (req, res) => {
-  res.send('Express on Vercel')
+  res.send('duck water mouse')
 })
 
 app.listen(5000, () => {
